@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4386EE02C81B74F00D34C77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4386EDF2C81B74F00D34C77 /* AppDelegate.swift */; };
+		D4386EE22C81B74F00D34C77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4386EE12C81B74F00D34C77 /* SceneDelegate.swift */; };
+		D4386EE42C81B74F00D34C77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4386EE32C81B74F00D34C77 /* ViewController.swift */; };
+		D4386EE72C81B74F00D34C77 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D4386EE62C81B74F00D34C77 /* Base */; };
+		D4386EE92C81B75100D34C77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4386EE82C81B75100D34C77 /* Assets.xcassets */; };
+		D4386EEC2C81B75100D34C77 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D4386EEB2C81B75100D34C77 /* Base */; };
+		D4386EF72C81B75100D34C77 /* WisedomleafTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4386EF62C81B75100D34C77 /* WisedomleafTests.swift */; };
+		D4386F012C81B75100D34C77 /* WisedomleafUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4386F002C81B75100D34C77 /* WisedomleafUITests.swift */; };
+		D4386F032C81B75100D34C77 /* WisedomleafUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4386F022C81B75100D34C77 /* WisedomleafUITestsLaunchTests.swift */; };
+		D4386F112C81B7A600D34C77 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D4386F102C81B7A600D34C77 /* Alamofire */; };
+		D4386F132C81B7A600D34C77 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = D4386F122C81B7A600D34C77 /* AlamofireDynamic */; };
+		D4386F152C81B7C600D34C77 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4386F142C81B7C600D34C77 /* ModelData.swift */; };
+		D4386F172C81DAE300D34C77 /* myTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4386F162C81DAE300D34C77 /* myTableViewCell.swift */; };
+		D4386F1C2C81E64E00D34C77 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = D4386F1B2C81E64E00D34C77 /* Kingfisher */; };
+		D4A67CD42C83386F000C49F5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A67CD32C83386F000C49F5 /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4386EF32C81B75100D34C77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4386ED42C81B74F00D34C77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4386EDB2C81B74F00D34C77;
+			remoteInfo = Wisedomleaf;
+		};
+		D4386EFD2C81B75100D34C77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4386ED42C81B74F00D34C77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4386EDB2C81B74F00D34C77;
+			remoteInfo = Wisedomleaf;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4386EDC2C81B74F00D34C77 /* Wisedomleaf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wisedomleaf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4386EDF2C81B74F00D34C77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4386EE12C81B74F00D34C77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D4386EE32C81B74F00D34C77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4386EE62C81B74F00D34C77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4386EE82C81B75100D34C77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4386EEB2C81B75100D34C77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4386EED2C81B75100D34C77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4386EF22C81B75100D34C77 /* WisedomleafTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WisedomleafTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4386EF62C81B75100D34C77 /* WisedomleafTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WisedomleafTests.swift; sourceTree = "<group>"; };
+		D4386EFC2C81B75100D34C77 /* WisedomleafUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WisedomleafUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4386F002C81B75100D34C77 /* WisedomleafUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WisedomleafUITests.swift; sourceTree = "<group>"; };
+		D4386F022C81B75100D34C77 /* WisedomleafUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WisedomleafUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D4386F142C81B7C600D34C77 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		D4386F162C81DAE300D34C77 /* myTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTableViewCell.swift; sourceTree = "<group>"; };
+		D4A67CD32C83386F000C49F5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4386ED92C81B74F00D34C77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4386F1C2C81E64E00D34C77 /* Kingfisher in Frameworks */,
+				D4386F112C81B7A600D34C77 /* Alamofire in Frameworks */,
+				D4386F132C81B7A600D34C77 /* AlamofireDynamic in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4386EEF2C81B75100D34C77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4386EF92C81B75100D34C77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D432B9CF2C84CC2A00BE4DA9 /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D4A67CD32C83386F000C49F5 /* DetailViewController.swift */,
+			);
+			path = DetailViewController;
+			sourceTree = "<group>";
+		};
+		D432B9D02C84CCE100BE4DA9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D4386F142C81B7C600D34C77 /* ModelData.swift */,
+				D432B9D12C84CD1A00BE4DA9 /* TableViewCell */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D432B9D12C84CD1A00BE4DA9 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				D4386F162C81DAE300D34C77 /* myTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		D4386ED32C81B74F00D34C77 = {
+			isa = PBXGroup;
+			children = (
+				D432B9CF2C84CC2A00BE4DA9 /* DetailViewController */,
+				D432B9D02C84CCE100BE4DA9 /* Model */,
+				D4386EDE2C81B74F00D34C77 /* Wisedomleaf */,
+				D4386EF52C81B75100D34C77 /* WisedomleafTests */,
+				D4386EFF2C81B75100D34C77 /* WisedomleafUITests */,
+				D4386EDD2C81B74F00D34C77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4386EDD2C81B74F00D34C77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4386EDC2C81B74F00D34C77 /* Wisedomleaf.app */,
+				D4386EF22C81B75100D34C77 /* WisedomleafTests.xctest */,
+				D4386EFC2C81B75100D34C77 /* WisedomleafUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4386EDE2C81B74F00D34C77 /* Wisedomleaf */ = {
+			isa = PBXGroup;
+			children = (
+				D4386EDF2C81B74F00D34C77 /* AppDelegate.swift */,
+				D4386EE12C81B74F00D34C77 /* SceneDelegate.swift */,
+				D4386EE32C81B74F00D34C77 /* ViewController.swift */,
+				D4386EE52C81B74F00D34C77 /* Main.storyboard */,
+				D4386EE82C81B75100D34C77 /* Assets.xcassets */,
+				D4386EEA2C81B75100D34C77 /* LaunchScreen.storyboard */,
+				D4386EED2C81B75100D34C77 /* Info.plist */,
+			);
+			path = Wisedomleaf;
+			sourceTree = "<group>";
+		};
+		D4386EF52C81B75100D34C77 /* WisedomleafTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4386EF62C81B75100D34C77 /* WisedomleafTests.swift */,
+			);
+			path = WisedomleafTests;
+			sourceTree = "<group>";
+		};
+		D4386EFF2C81B75100D34C77 /* WisedomleafUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4386F002C81B75100D34C77 /* WisedomleafUITests.swift */,
+				D4386F022C81B75100D34C77 /* WisedomleafUITestsLaunchTests.swift */,
+			);
+			path = WisedomleafUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4386EDB2C81B74F00D34C77 /* Wisedomleaf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4386F062C81B75100D34C77 /* Build configuration list for PBXNativeTarget "Wisedomleaf" */;
+			buildPhases = (
+				D4386ED82C81B74F00D34C77 /* Sources */,
+				D4386ED92C81B74F00D34C77 /* Frameworks */,
+				D4386EDA2C81B74F00D34C77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wisedomleaf;
+			packageProductDependencies = (
+				D4386F102C81B7A600D34C77 /* Alamofire */,
+				D4386F122C81B7A600D34C77 /* AlamofireDynamic */,
+				D4386F1B2C81E64E00D34C77 /* Kingfisher */,
+			);
+			productName = Wisedomleaf;
+			productReference = D4386EDC2C81B74F00D34C77 /* Wisedomleaf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4386EF12C81B75100D34C77 /* WisedomleafTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4386F092C81B75100D34C77 /* Build configuration list for PBXNativeTarget "WisedomleafTests" */;
+			buildPhases = (
+				D4386EEE2C81B75100D34C77 /* Sources */,
+				D4386EEF2C81B75100D34C77 /* Frameworks */,
+				D4386EF02C81B75100D34C77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4386EF42C81B75100D34C77 /* PBXTargetDependency */,
+			);
+			name = WisedomleafTests;
+			productName = WisedomleafTests;
+			productReference = D4386EF22C81B75100D34C77 /* WisedomleafTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4386EFB2C81B75100D34C77 /* WisedomleafUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4386F0C2C81B75100D34C77 /* Build configuration list for PBXNativeTarget "WisedomleafUITests" */;
+			buildPhases = (
+				D4386EF82C81B75100D34C77 /* Sources */,
+				D4386EF92C81B75100D34C77 /* Frameworks */,
+				D4386EFA2C81B75100D34C77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4386EFE2C81B75100D34C77 /* PBXTargetDependency */,
+			);
+			name = WisedomleafUITests;
+			productName = WisedomleafUITests;
+			productReference = D4386EFC2C81B75100D34C77 /* WisedomleafUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4386ED42C81B74F00D34C77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					D4386EDB2C81B74F00D34C77 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					D4386EF12C81B75100D34C77 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D4386EDB2C81B74F00D34C77;
+					};
+					D4386EFB2C81B75100D34C77 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D4386EDB2C81B74F00D34C77;
+					};
+				};
+			};
+			buildConfigurationList = D4386ED72C81B74F00D34C77 /* Build configuration list for PBXProject "Wisedomleaf" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4386ED32C81B74F00D34C77;
+			packageReferences = (
+				D4386F0F2C81B7A600D34C77 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				D4386F1A2C81E64E00D34C77 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = D4386EDD2C81B74F00D34C77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4386EDB2C81B74F00D34C77 /* Wisedomleaf */,
+				D4386EF12C81B75100D34C77 /* WisedomleafTests */,
+				D4386EFB2C81B75100D34C77 /* WisedomleafUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4386EDA2C81B74F00D34C77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4386EE92C81B75100D34C77 /* Assets.xcassets in Resources */,
+				D4386EEC2C81B75100D34C77 /* Base in Resources */,
+				D4386EE72C81B74F00D34C77 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4386EF02C81B75100D34C77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4386EFA2C81B75100D34C77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4386ED82C81B74F00D34C77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4386EE42C81B74F00D34C77 /* ViewController.swift in Sources */,
+				D4386F172C81DAE300D34C77 /* myTableViewCell.swift in Sources */,
+				D4386F152C81B7C600D34C77 /* ModelData.swift in Sources */,
+				D4386EE02C81B74F00D34C77 /* AppDelegate.swift in Sources */,
+				D4386EE22C81B74F00D34C77 /* SceneDelegate.swift in Sources */,
+				D4A67CD42C83386F000C49F5 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4386EEE2C81B75100D34C77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4386EF72C81B75100D34C77 /* WisedomleafTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4386EF82C81B75100D34C77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4386F012C81B75100D34C77 /* WisedomleafUITests.swift in Sources */,
+				D4386F032C81B75100D34C77 /* WisedomleafUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4386EF42C81B75100D34C77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4386EDB2C81B74F00D34C77 /* Wisedomleaf */;
+			targetProxy = D4386EF32C81B75100D34C77 /* PBXContainerItemProxy */;
+		};
+		D4386EFE2C81B75100D34C77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4386EDB2C81B74F00D34C77 /* Wisedomleaf */;
+			targetProxy = D4386EFD2C81B75100D34C77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4386EE52C81B74F00D34C77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4386EE62C81B74F00D34C77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4386EEA2C81B75100D34C77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4386EEB2C81B75100D34C77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4386F042C81B75100D34C77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4386F052C81B75100D34C77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4386F072C81B75100D34C77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Wisedomleaf/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sample.Wisedomleaf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4386F082C81B75100D34C77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Wisedomleaf/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sample.Wisedomleaf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D4386F0A2C81B75100D34C77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sample.WisedomleafTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wisedomleaf.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wisedomleaf";
+			};
+			name = Debug;
+		};
+		D4386F0B2C81B75100D34C77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sample.WisedomleafTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wisedomleaf.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wisedomleaf";
+			};
+			name = Release;
+		};
+		D4386F0D2C81B75100D34C77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sample.WisedomleafUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wisedomleaf;
+			};
+			name = Debug;
+		};
+		D4386F0E2C81B75100D34C77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sample.WisedomleafUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wisedomleaf;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4386ED72C81B74F00D34C77 /* Build configuration list for PBXProject "Wisedomleaf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4386F042C81B75100D34C77 /* Debug */,
+				D4386F052C81B75100D34C77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4386F062C81B75100D34C77 /* Build configuration list for PBXNativeTarget "Wisedomleaf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4386F072C81B75100D34C77 /* Debug */,
+				D4386F082C81B75100D34C77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4386F092C81B75100D34C77 /* Build configuration list for PBXNativeTarget "WisedomleafTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4386F0A2C81B75100D34C77 /* Debug */,
+				D4386F0B2C81B75100D34C77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4386F0C2C81B75100D34C77 /* Build configuration list for PBXNativeTarget "WisedomleafUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4386F0D2C81B75100D34C77 /* Debug */,
+				D4386F0E2C81B75100D34C77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D4386F0F2C81B7A600D34C77 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		D4386F1A2C81E64E00D34C77 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D4386F102C81B7A600D34C77 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4386F0F2C81B7A600D34C77 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		D4386F122C81B7A600D34C77 /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4386F0F2C81B7A600D34C77 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+		D4386F1B2C81E64E00D34C77 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4386F1A2C81E64E00D34C77 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D4386ED42C81B74F00D34C77 /* Project object */;
+}
